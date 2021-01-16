@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "next": "^9.3.5",
+    "node-fetch": "^2.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -13,5 +14,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
   }
 }
